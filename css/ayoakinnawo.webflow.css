@@ -2823,7 +2823,7 @@ figcaption {
 
 @media screen and (min-width: 1920px) {
   .paragraph-light {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .mainsection {
@@ -2851,7 +2851,7 @@ figcaption {
   }
 
   .section-3 {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .text-block-17 {
