@@ -2738,7 +2738,7 @@ figcaption {
 }
 
 .div-block-136 {
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   display: flex;
 }
@@ -2823,7 +2823,7 @@ figcaption {
 
 @media screen and (min-width: 1920px) {
   .paragraph-light {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .mainsection {
@@ -2832,8 +2832,30 @@ figcaption {
     margin-right: auto;
   }
 
+  .text-block-11 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .text-block-12 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .text-block-13 {
+    font-size: 45px;
+  }
+
   .image-10 {
     border-right: 1px #000;
+  }
+
+  .section-3 {
+    margin-top: 20px;
+  }
+
+  .text-block-17 {
+    font-size: 20px;
   }
 }
 
