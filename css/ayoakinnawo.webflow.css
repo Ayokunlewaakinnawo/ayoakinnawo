@@ -1751,6 +1751,7 @@ figcaption {
 }
 
 .mainsection {
+  max-width: 1400px;
   grid-column-gap: 5px;
   grid-row-gap: 16px;
   grid-template-rows: auto;
@@ -2708,13 +2709,15 @@ figcaption {
   color: #d9d9d9;
   text-align: center;
   background-color: #181818;
+  border-top: 1px solid #777;
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: Inconsolata, monospace;
 }
 
 .image-7 {
-  border: 1px solid #d9d9d9;
+  border: 1px #d9d9d9;
+  border-right-style: solid;
 }
 
 .internal-underline-copy {
@@ -2743,6 +2746,20 @@ figcaption {
 
 .div-block-137 {
   margin-top: 10px;
+}
+
+.div-block-138, .div-block-139, .div-block-140, .div-block-141 {
+  background-color: #181818;
+}
+
+.image-8, .image-9 {
+  border-right: 1px solid #fff;
+}
+
+.div-block-142 {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2784,6 +2801,22 @@ figcaption {
     color: #d9d9d9;
     text-align: center;
     background-color: #181818;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .paragraph-light {
+    font-size: 18px;
+  }
+
+  .mainsection {
+    margin-top: 20em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image-10 {
+    border-right: 1px #000;
   }
 }
 
@@ -3830,6 +3863,12 @@ figcaption {
 
 #w-node-_9fda4a37-cb21-e2a1-58de-88a206fa61ae-82ff4119 {
   grid-area: 1 / 1 / 2 / 2;
+}
+
+@media screen and (min-width: 1920px) {
+  #w-node-e39aa2a1-02f3-74f0-91bb-50306eb8d6aa-3fff4113 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+  }
 }
 
 @media screen and (max-width: 991px) {
