@@ -278,9 +278,10 @@ figcaption {
 }
 
 .section {
+  max-width: 1400px;
   margin-top: 0;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section.cc-contact {
@@ -2694,7 +2695,7 @@ figcaption {
 .div-block-134 {
   grid-column-gap: 0px;
   grid-row-gap: 16px;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
@@ -2762,6 +2763,7 @@ figcaption {
 }
 
 .link-block-7 {
+  opacity: .44;
   padding-left: 10px;
 }
 
@@ -2777,6 +2779,10 @@ figcaption {
   color: #fff;
   background-color: #414344;
   padding: 20px 10px;
+}
+
+.section-3 {
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3808,7 +3814,7 @@ figcaption {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-_267482de-6486-dccb-9d5e-7c47287b4a2a-3fff4113, #w-node-dff26f68-5731-3efa-d3dd-8f65c72d8fc9-3fff4113 {
+#w-node-_64811408-1f58-0813-6ae9-129255d3514a-3fff4113, #w-node-dff26f68-5731-3efa-d3dd-8f65c72d8fc9-3fff4113 {
   grid-area: 1 / 1 / 2 / 2;
 }
 
