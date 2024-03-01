@@ -892,12 +892,8 @@ figcaption {
   margin-bottom: 30px;
 }
 
-.body {
+.body, .body-2 {
   background-color: #e4e4e4;
-  font-family: Times New Roman, TimesNewRoman, Times, Baskerville, Georgia, serif;
-}
-
-.body-2 {
   font-family: Times New Roman, TimesNewRoman, Times, Baskerville, Georgia, serif;
 }
 
@@ -947,6 +943,7 @@ figcaption {
 }
 
 .body-3 {
+  background-color: #e4e4e4;
   font-family: Times New Roman, TimesNewRoman, Times, Baskerville, Georgia, serif;
 }
 
@@ -1114,7 +1111,7 @@ figcaption {
   letter-spacing: normal;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Times New Roman, TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-family: Inconsolata, monospace;
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 1.5;
@@ -1557,9 +1554,10 @@ figcaption {
 }
 
 .gallery {
+  max-width: 1400px;
   margin-top: 2em;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gallery.cc-contact {
@@ -1569,9 +1567,10 @@ figcaption {
 }
 
 .gallery1 {
+  max-width: 1400px;
   margin-top: 4em;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gallery1.cc-contact {
@@ -2762,6 +2761,24 @@ figcaption {
   margin-right: auto;
 }
 
+.link-block-7 {
+  padding-left: 10px;
+}
+
+.link-block-7.w--current {
+  padding-right: 10px;
+}
+
+.body-9, .body-10, .body-11, .body-12 {
+  background-color: #e4e4e4;
+}
+
+.div-block-126-copy {
+  color: #fff;
+  background-color: #414344;
+  padding: 20px 10px;
+}
+
 @media screen and (min-width: 1280px) {
   .paragraph-light.cc-position-name {
     font-family: Inconsolata, monospace;
@@ -3769,7 +3786,7 @@ figcaption {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-dff26f68-5731-3efa-d3dd-8f65c72d8fc9-3fff4113 {
+#w-node-_267482de-6486-dccb-9d5e-7c47287b4a2a-3fff4113, #w-node-dff26f68-5731-3efa-d3dd-8f65c72d8fc9-3fff4113 {
   grid-area: 1 / 1 / 2 / 2;
 }
 
@@ -3787,10 +3804,6 @@ figcaption {
 
 #w-node-dff26f68-5731-3efa-d3dd-8f65c72d8fe1-3fff4113 {
   grid-area: 1 / 4 / 2 / 5;
-}
-
-#w-node-_267482de-6486-dccb-9d5e-7c47287b4a2a-3fff4113 {
-  grid-area: 1 / 1 / 2 / 2;
 }
 
 #w-node-bf7eff07-8f15-6379-ef31-97e9b604d474-3fff4113 {
