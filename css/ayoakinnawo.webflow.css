@@ -2197,6 +2197,10 @@ figcaption {
   font-weight: 500;
 }
 
+.link.wavy-link {
+  font-size: 60px;
+}
+
 .link.split-underline {
   font-family: Exo, sans-serif;
   font-weight: 400;
@@ -2304,7 +2308,7 @@ figcaption {
 
 .page-wrapper {
   width: 100vw;
-  display: none;
+  display: block;
 }
 
 .section-2 {
@@ -2465,6 +2469,10 @@ figcaption {
   margin-bottom: 1.5rem;
   font-size: 2.25rem;
   line-height: 1;
+}
+
+.txt_anime {
+  display: none;
 }
 
 .text-block-9 {
@@ -2645,6 +2653,8 @@ figcaption {
 
 .text-block-12:hover {
   color: #ff0505;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-weight: 100;
 }
 
 .text-block-13 {
@@ -2783,6 +2793,19 @@ figcaption {
 
 .section-3 {
   margin-top: 20px;
+}
+
+.text-block-18 {
+  font-family: Inconsolata, monospace;
+  line-height: 65px;
+}
+
+.text-span-13 {
+  font-weight: 700;
+}
+
+.text-block-19 {
+  font-size: 18px;
 }
 
 @media screen and (min-width: 1280px) {
