@@ -2859,11 +2859,7 @@ figcaption {
     color: #eb1111;
   }
 
-  .page-wrapper {
-    display: block;
-  }
-
-  .txt_anime {
+  .custom-styles, .page-wrapper, .txt_anime {
     display: none;
   }
 
