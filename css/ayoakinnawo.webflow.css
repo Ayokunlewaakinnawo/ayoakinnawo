@@ -3155,13 +3155,17 @@ figcaption {
   }
 
   .mainsection {
-    margin-top: 20em;
+    margin-top: 7em;
     margin-left: auto;
     margin-right: auto;
   }
 
   .uui-section_blogsection12 {
     overflow: visible;
+  }
+
+  .uui-page-padding-32 {
+    overflow: hidden;
   }
 
   .text-block-11 {
