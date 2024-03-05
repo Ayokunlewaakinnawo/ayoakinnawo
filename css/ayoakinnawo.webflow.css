@@ -1757,9 +1757,10 @@ figcaption {
   grid-template-rows: auto;
   grid-template-columns: 1fr .75fr;
   grid-auto-columns: 1fr;
-  margin-top: 15em;
+  margin-top: 7em;
   margin-left: 30px;
   margin-right: 30px;
+  padding-top: 7em;
   display: grid;
 }
 
@@ -2922,6 +2923,147 @@ figcaption {
   font-weight: 400;
 }
 
+.uui-banner08_content-2 {
+  flex: 1;
+  align-items: center;
+  margin-right: 2rem;
+  display: flex;
+}
+
+.uui-icon-1x1-xxsmall-2 {
+  width: 1.25rem;
+  height: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.uui-banner08_text-2 {
+  color: #344054;
+  margin-right: .375rem;
+  font-family: Inconsolata, monospace;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.uui-banner08_icon-wrapper-2 {
+  width: 3rem;
+  height: 3rem;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.uui-button-secondary-gray-21 {
+  grid-column-gap: .5rem;
+  color: #344054;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  border-radius: .5rem;
+  justify-content: center;
+  align-items: center;
+  padding: .625rem 1.125rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: all .3s;
+  display: flex;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+}
+
+.uui-button-secondary-gray-21:hover {
+  color: #1d2939;
+  background-color: #f9fafb;
+}
+
+.uui-button-secondary-gray-21:focus {
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, .05), 0 0 0 4px #f2f4f7;
+}
+
+.uui-button-secondary-gray-21.is-button-small {
+  grid-column-gap: .5rem;
+  background-color: rgba(255, 255, 255, .25);
+  padding: .5rem 1rem;
+  font-size: 1rem;
+}
+
+.uui-banner08_component-2 {
+  z-index: 1;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.uui-banner08_wrapper-2 {
+  background-color: #e2e2e2;
+  border: 1px solid #d0d5dd;
+  border-radius: .75rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding: .75rem;
+  display: flex;
+  position: relative;
+  box-shadow: 0 12px 16px -4px rgba(0, 0, 0, .08), 0 4px 6px -2px rgba(16, 24, 40, .03);
+}
+
+.uui-banner08_text-wrapper-2 {
+  grid-row-gap: .125rem;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.icon-featured-modern-large-2 {
+  width: 3rem;
+  height: 3rem;
+  color: #344054;
+  background-color: rgba(255, 255, 255, .18);
+  border: 1px solid #eaecf0;
+  border-radius: .625rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+}
+
+.text-block-58 {
+  font-family: Inconsolata, monospace;
+}
+
+.uui-icon-1x1-xsmall-13 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.uui-banner08_close-button-2 {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #667085;
+  border-radius: .5rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: .5rem;
+  transition: all .3s;
+  display: flex;
+}
+
+.uui-banner08_close-button-2:hover {
+  color: #475467;
+  background-color: #f9fafb;
+}
+
+.main {
+  position: relative;
+}
+
 @media screen and (min-width: 1280px) {
   .paragraph-light.cc-position-name {
     font-family: Inconsolata, monospace;
@@ -3492,6 +3634,23 @@ figcaption {
     padding: .75rem 0;
     font-size: 1.125rem;
   }
+
+  .uui-banner08_content-2 {
+    margin-right: 1rem;
+  }
+
+  .uui-banner08_icon-wrapper-2 {
+    display: none;
+  }
+
+  .uui-banner08_wrapper-2 {
+    align-items: flex-start;
+    padding-left: 1.25rem;
+  }
+
+  .uui-banner08_text-wrapper-2 {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -4012,6 +4171,49 @@ figcaption {
   .nav_bar {
     height: auto;
     min-height: 4rem;
+  }
+
+  .uui-banner08_content-2 {
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+  }
+
+  .uui-button-secondary-gray-21 {
+    padding-left: 1.25rem;
+    font-size: 1rem;
+  }
+
+  .uui-button-secondary-gray-21:hover {
+    color: #344054;
+    background-color: #fff;
+  }
+
+  .uui-banner08_wrapper-2 {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1rem;
+  }
+
+  .uui-banner08_text-wrapper-2 {
+    grid-column-gap: .25rem;
+    grid-row-gap: .25rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .uui-banner08_close-button-2 {
+    margin-left: 0;
+    position: absolute;
+    top: .5rem;
+    bottom: auto;
+    left: auto;
+    right: .5rem;
+  }
+
+  .uui-banner08_close-button-2:hover {
+    color: #667085;
+    background-color: rgba(0, 0, 0, 0);
   }
 }
 
