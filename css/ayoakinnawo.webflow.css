@@ -326,11 +326,11 @@ figcaption {
 }
 
 .button.cc-white-button:hover {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: #fffc;
 }
 
 .button.cc-white-button:active {
-  background-color: rgba(255, 255, 255, .9);
+  background-color: #ffffffe6;
 }
 
 .paragraph-bigger {
@@ -408,7 +408,7 @@ figcaption {
 
 .navigation-items {
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   flex: 1;
   justify-content: space-between;
   align-items: center;
@@ -418,16 +418,13 @@ figcaption {
 
 .navigation {
   background-color: #e4e4e4;
-  border: 1px solid rgba(0, 0, 0, .1);
+  border: 1px solid #0000001a;
   align-items: center;
   padding: 10px 50px;
   font-family: Inconsolata, monospace;
   display: none;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .logo-image {
@@ -497,7 +494,7 @@ figcaption {
   background-image: url('../images/Screen-Shot-2023-05-28-at-5.31.50-PM.png');
   background-position: 50%;
   background-size: cover;
-  border: 1px solid rgba(0, 0, 0, .28);
+  border: 1px solid #00000047;
   border-radius: 20px;
   flex-direction: column;
   justify-content: center;
@@ -531,7 +528,7 @@ figcaption {
   background-image: url('../images/Dashboard.jpg');
   background-position: 50% 0;
   background-size: cover;
-  border: 1px solid rgba(0, 0, 0, .35);
+  border: 1px solid #00000059;
   position: relative;
 }
 
@@ -543,7 +540,7 @@ figcaption {
 .work-image.cc-work-3 {
   background-image: url('../images/Screen-Shot-2023-05-28-at-5.31.50-PM.png');
   background-size: cover;
-  border: 1px solid rgba(0, 0, 0, .5);
+  border: 1px solid #00000080;
   position: relative;
 }
 
@@ -587,7 +584,7 @@ figcaption {
 }
 
 .text-field::placeholder {
-  color: rgba(50, 52, 58, .4);
+  color: #32343a66;
 }
 
 .text-field.cc-textarea {
@@ -936,7 +933,7 @@ figcaption {
 }
 
 .text-span-3 {
-  color: rgba(26, 27, 31, .6);
+  color: #1a1b1f99;
 }
 
 .body-3 {
@@ -1002,7 +999,7 @@ figcaption {
 .link-block-2 {
   background-image: url('../images/Screen-Shot-2023-11-04-at-2.39.57-PM.png');
   background-size: cover;
-  border: 1px solid rgba(0, 0, 0, .35);
+  border: 1px solid #00000059;
   border-radius: 20px;
   flex-direction: column;
   justify-content: center;
@@ -1049,7 +1046,7 @@ figcaption {
   background-position: 50%;
   background-size: cover;
   background-attachment: scroll;
-  border: 1px solid rgba(14, 13, 13, .96);
+  border: 1px solid #0e0d0df5;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
@@ -1071,7 +1068,7 @@ figcaption {
 
 .uui-layout32_timeline-icon-wrapper {
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   margin-top: -1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1158,14 +1155,14 @@ figcaption {
   justify-content: center;
   align-items: center;
   padding: .625rem 1.125rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
   text-decoration: none;
   transition: all .3s;
   display: flex;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+  box-shadow: 0 1px 2px #1018280d;
 }
 
 .uui-button-secondary-gray-10:hover {
@@ -1175,7 +1172,7 @@ figcaption {
 
 .uui-button-secondary-gray-10:focus {
   background-color: #fff;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, .05), 0 0 0 4px #f2f4f7;
+  box-shadow: 0 1px 2px #1018280d, 0 0 0 4px #f2f4f7;
 }
 
 .uui-layout32_progress-bar {
@@ -1226,14 +1223,14 @@ figcaption {
   justify-content: center;
   align-items: center;
   padding: .625rem 1.125rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
   text-decoration: none;
   transition: all .3s;
   display: flex;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+  box-shadow: 0 1px 2px #1018280d;
 }
 
 .uui-button-20:hover {
@@ -1243,7 +1240,7 @@ figcaption {
 
 .uui-button-20:focus {
   background-color: #7f56d9;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, .05), 0 0 0 4px #f4ebff;
+  box-shadow: 0 1px 2px #1018280d, 0 0 0 4px #f4ebff;
 }
 
 .uui-layout32_timeline-step {
@@ -1351,7 +1348,7 @@ figcaption {
 .uui-logos04_text-3 {
   color: #475467;
   letter-spacing: normal;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1rem;
   font-weight: 500;
 }
@@ -1394,8 +1391,7 @@ figcaption {
   grid-template-columns: 12.5rem 12.5rem 12.5rem 12.5rem 12.5rem 12.5rem 12.5rem 12.5rem;
   grid-auto-columns: 1fr;
   justify-content: space-around;
-  align-items: center;
-  justify-items: start;
+  place-items: center start;
   width: 175rem;
   display: flex;
 }
@@ -1428,8 +1424,7 @@ figcaption {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   justify-content: center;
-  align-items: center;
-  justify-items: center;
+  place-items: center;
   display: grid;
 }
 
@@ -1467,7 +1462,7 @@ figcaption {
 }
 
 .text-span-10 {
-  color: rgba(19, 19, 19, .57);
+  color: #13131391;
 }
 
 .html-embed {
@@ -1498,7 +1493,7 @@ figcaption {
 .image-4 {
   border-radius: 20em;
   display: block;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, .2);
+  box-shadow: 0 4px 5px #0003;
 }
 
 .div-block-13 {
@@ -1606,7 +1601,7 @@ figcaption {
   background-image: url('../images/ezgif.com-video-to-gif-3.gif');
   background-position: 0 0;
   background-size: cover;
-  border: 1px solid rgba(0, 0, 0, .35);
+  border: 1px solid #00000059;
   border-radius: 20px;
   flex-direction: column;
   justify-content: center;
@@ -1626,16 +1621,13 @@ figcaption {
   border-radius: 20px;
   flex-direction: column;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .hovershow:hover {
   opacity: 1;
   text-align: center;
-  background-color: rgba(255, 255, 255, .72);
+  background-color: #ffffffb8;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -1650,7 +1642,7 @@ figcaption {
   background-position: 50%;
   background-size: cover;
   background-attachment: scroll;
-  border: 1px solid rgba(14, 13, 13, .35);
+  border: 1px solid #0e0d0d59;
   border-radius: 20px;
   flex-direction: column;
   justify-content: center;
@@ -1670,15 +1662,12 @@ figcaption {
   justify-content: center;
   display: block;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .div-block-18:hover {
   opacity: 1;
-  background-color: rgba(255, 255, 255, .67);
+  background-color: #ffffffab;
   flex-direction: column;
   align-items: center;
   display: flex;
@@ -1686,14 +1675,11 @@ figcaption {
 
 .div-block-19 {
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .div-block-19:hover {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   justify-content: center;
   align-items: center;
   display: block;
@@ -1701,34 +1687,25 @@ figcaption {
 
 .div-block-20 {
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .div-block-20:hover {
-  background-color: rgba(0, 0, 0, .97);
+  background-color: #000000f7;
 }
 
 .div-block-21 {
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .div-block-21:hover {
-  background-color: rgba(12, 0, 0, .72);
+  background-color: #0c0000b8;
 }
 
 .div-block-22 {
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .project1skillset {
@@ -1738,8 +1715,7 @@ figcaption {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   justify-content: center;
-  align-items: center;
-  justify-items: center;
+  place-items: center;
   display: grid;
 }
 
@@ -1798,7 +1774,7 @@ figcaption {
 .link-block-2-copy {
   background-image: url('../images/Proj.2-.png');
   background-size: cover;
-  border: 1px solid rgba(0, 0, 0, .35);
+  border: 1px solid #00000059;
   border-radius: 20px;
   flex-direction: column;
   justify-content: center;
@@ -1832,17 +1808,14 @@ figcaption {
   height: 100%;
   font-weight: 700;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .uui-blogsection12_category-link {
   color: #6941c6;
   margin-bottom: .5rem;
   margin-right: 1rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: .875rem;
   font-weight: 600;
   text-decoration: none;
@@ -1864,7 +1837,7 @@ figcaption {
 }
 
 .uui-blogsection12_component {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   height: auto;
   margin-top: 4rem;
   padding-bottom: 8rem;
@@ -1894,10 +1867,7 @@ figcaption {
   color: #000;
   height: 1.75rem;
   font-size: .5rem;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: auto auto 0% 0%;
 }
 
 .uui-button-icon-20 {
@@ -1913,7 +1883,7 @@ figcaption {
 
 .uui-blogsection12_arrow {
   color: #667085;
-  background-color: rgba(255, 255, 255, .4);
+  background-color: #fff6;
   border: 1px solid #eaecf0;
   border-radius: 100%;
   justify-content: center;
@@ -1922,10 +1892,7 @@ figcaption {
   height: 3rem;
   transition: all .3s;
   display: flex;
-  top: auto;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: auto 0% 0% auto;
 }
 
 .uui-blogsection12_arrow:hover {
@@ -1933,7 +1900,7 @@ figcaption {
 }
 
 .uui-blogsection12_arrow.left {
-  background-color: rgba(255, 255, 255, .4);
+  background-color: #fff6;
   right: 4rem;
 }
 
@@ -2002,14 +1969,14 @@ figcaption {
 }
 
 .uui-blogsection12_image-link:hover {
-  box-shadow: 0 24px 48px -12px rgba(16, 24, 40, .18);
+  box-shadow: 0 24px 48px -12px #1018282e;
 }
 
 .uui-heading-medium-24 {
   color: #101828;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 2.25rem;
   font-weight: 600;
   line-height: 1.3;
@@ -2037,7 +2004,7 @@ figcaption {
 .uui-text-size-small-15 {
   color: #475467;
   letter-spacing: normal;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: .875rem;
   line-height: 1.5;
 }
@@ -2058,14 +2025,14 @@ figcaption {
   justify-content: center;
   align-items: center;
   padding: .625rem 1.125rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
   text-decoration: none;
   transition: all .3s;
   display: flex;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+  box-shadow: 0 1px 2px #1018280d;
 }
 
 .uui-button-32:hover {
@@ -2075,7 +2042,7 @@ figcaption {
 
 .uui-button-32:focus {
   background-color: #7f56d9;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, .05), 0 0 0 4px #f4ebff;
+  box-shadow: 0 1px 2px #1018280d, 0 0 0 4px #f4ebff;
 }
 
 .uui-button-32.is-button-medium {
@@ -2087,7 +2054,7 @@ figcaption {
 .uui-text-size-medium-25 {
   color: #475467;
   letter-spacing: normal;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -2100,7 +2067,7 @@ figcaption {
 .uui-blogsection12_author-heading {
   color: #101828;
   letter-spacing: normal;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: .875rem;
   font-weight: 600;
 }
@@ -2118,14 +2085,14 @@ figcaption {
   color: #475467;
   margin-left: .25rem;
   margin-right: .25rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
 
 .uui-text-divider-8.text-size-small {
   color: #475467;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: .875rem;
 }
 
@@ -2231,7 +2198,7 @@ figcaption {
   text-decoration: none;
   transition: box-shadow .2s;
   position: relative;
-  box-shadow: 0 0 2px 1px rgba(16, 24, 40, .05);
+  box-shadow: 0 0 2px 1px #1018280d;
 }
 
 .button-2:hover {
@@ -2345,10 +2312,7 @@ figcaption {
 }
 
 .handwriting-contents.hidden-on-mobile {
-  top: auto;
-  bottom: -100px;
-  left: auto;
-  right: 10%;
+  inset: auto 10% -100px auto;
 }
 
 .section-button-holder {
@@ -2391,10 +2355,7 @@ figcaption {
 .background {
   z-index: 0;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .section-subtitle {
@@ -2414,19 +2375,13 @@ figcaption {
 
 .internal-underline {
   position: absolute;
-  top: auto;
-  bottom: -43px;
-  left: 124px;
-  right: auto;
+  inset: auto auto -43px 124px;
 }
 
 .button-number {
   color: #515f74;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .noise {
@@ -2437,10 +2392,7 @@ figcaption {
   background-position: 0 0;
   background-size: auto;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .button-3 {
@@ -2453,7 +2405,7 @@ figcaption {
   text-decoration: none;
   transition: box-shadow .2s;
   position: relative;
-  box-shadow: 0 0 2px 1px rgba(16, 24, 40, .05);
+  box-shadow: 0 0 2px 1px #1018280d;
 }
 
 .button-3:hover {
@@ -2583,8 +2535,7 @@ figcaption {
   grid-template-rows: auto;
   grid-template-columns: .5fr 1fr;
   grid-auto-columns: 1fr;
-  align-items: start;
-  justify-items: start;
+  place-items: start;
   font-family: Inconsolata, monospace;
   display: grid;
 }
@@ -2599,10 +2550,7 @@ figcaption {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .uui-blogsection12_title-link-copy {
@@ -2725,10 +2673,7 @@ figcaption {
 
 .internal-underline-copy {
   position: static;
-  top: auto;
-  bottom: -43px;
-  left: 124px;
-  right: auto;
+  inset: auto auto -43px 124px;
 }
 
 .text-block-16 {
@@ -2854,7 +2799,7 @@ figcaption {
 .nav_bar {
   background-color: #e4e4e4;
   border: 1px #000;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  border-bottom: 1px solid #0000001a;
   align-items: center;
   width: 100%;
   height: auto;
@@ -2862,15 +2807,12 @@ figcaption {
   padding: 10px 5%;
   display: flex;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .rl_navbar1_link {
   color: #000;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   padding: .5rem 1rem;
   font-family: Inconsolata, monospace;
   font-size: 14px;
@@ -2889,7 +2831,7 @@ figcaption {
 
 .rl_navbar1_link-copy {
   color: #000;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   padding: .5rem 1rem;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 14px;
@@ -2958,14 +2900,14 @@ figcaption {
   justify-content: center;
   align-items: center;
   padding: .625rem 1.125rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
   text-decoration: none;
   transition: all .3s;
   display: flex;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+  box-shadow: 0 1px 2px #1018280d;
 }
 
 .uui-button-secondary-gray-21:hover {
@@ -2975,12 +2917,12 @@ figcaption {
 
 .uui-button-secondary-gray-21:focus {
   background-color: #fff;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, .05), 0 0 0 4px #f2f4f7;
+  box-shadow: 0 1px 2px #1018280d, 0 0 0 4px #f2f4f7;
 }
 
 .uui-button-secondary-gray-21.is-button-small {
   grid-column-gap: .5rem;
-  background-color: rgba(255, 255, 255, .25);
+  background-color: #ffffff40;
   padding: .5rem 1rem;
   font-size: 1rem;
 }
@@ -2988,10 +2930,7 @@ figcaption {
 .uui-banner08_component-2 {
   z-index: 1;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .uui-banner08_wrapper-2 {
@@ -3003,7 +2942,7 @@ figcaption {
   padding: .75rem;
   display: flex;
   position: relative;
-  box-shadow: 0 12px 16px -4px rgba(0, 0, 0, .08), 0 4px 6px -2px rgba(16, 24, 40, .03);
+  box-shadow: 0 12px 16px -4px #00000014, 0 4px 6px -2px #10182808;
 }
 
 .uui-banner08_text-wrapper-2 {
@@ -3014,7 +2953,7 @@ figcaption {
 
 .icon-featured-modern-large-2 {
   color: #344054;
-  background-color: rgba(255, 255, 255, .18);
+  background-color: #ffffff2e;
   border: 1px solid #eaecf0;
   border-radius: .625rem;
   justify-content: center;
@@ -3022,7 +2961,7 @@ figcaption {
   width: 3rem;
   height: 3rem;
   display: flex;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+  box-shadow: 0 1px 2px #1018280d;
 }
 
 .text-block-58 {
@@ -3057,7 +2996,7 @@ figcaption {
 
 .navbar-no-shadow-container {
   z-index: 5;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   width: 100%;
   max-width: 1140px;
   margin-left: auto;
@@ -3100,7 +3039,7 @@ figcaption {
 }
 
 .nav-link:hover {
-  color: rgba(26, 27, 31, .75);
+  color: #1a1b1fbf;
 }
 
 .nav-link:focus-visible {
@@ -3130,7 +3069,7 @@ figcaption {
 }
 
 .nav-dropdown-toggle:hover {
-  color: rgba(26, 27, 31, .75);
+  color: #1a1b1fbf;
 }
 
 .nav-dropdown-toggle:focus-visible {
@@ -3207,10 +3146,7 @@ figcaption {
 
 .container-2 {
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .sysf-form-3 {
@@ -3257,7 +3193,7 @@ figcaption {
   margin-bottom: 12px;
   display: block;
   position: relative;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+  box-shadow: 0 1px 3px #00000014;
 }
 
 .div-block-144 {
@@ -3265,10 +3201,7 @@ figcaption {
   align-items: center;
   display: flex;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% 0% auto;
 }
 
 .sysf-button-3 {
@@ -3305,7 +3238,7 @@ figcaption {
 }
 
 .sysf-button-3.sysf-medium:hover {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   border: 2px solid #000;
   font-weight: 700;
 }
@@ -3429,11 +3362,11 @@ figcaption {
   }
 
   .uui-blogsection12_arrow {
-    background-color: rgba(255, 255, 255, .54);
+    background-color: #ffffff8a;
   }
 
   .uui-blogsection12_arrow.left {
-    background-color: rgba(255, 255, 255, .24);
+    background-color: #ffffff3d;
   }
 
   .link.underline-fill:hover {
@@ -3608,7 +3541,7 @@ figcaption {
   }
 
   .navigation-items {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #fff0;
   }
 
   .navigation {
@@ -3621,7 +3554,7 @@ figcaption {
   }
 
   .menu-button.w--open {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .navigation-wrap {
@@ -3933,7 +3866,7 @@ figcaption {
   .nav_bar {
     background-color: #e4e4e4;
     border-bottom-style: solid;
-    border-bottom-color: rgba(0, 0, 0, .1);
+    border-bottom-color: #0000001a;
     display: flex;
   }
 
@@ -3986,7 +3919,7 @@ figcaption {
   }
 
   .rl_navbar1_menu-button.w--open {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .rl_navbar1_link-copy {
@@ -4018,7 +3951,7 @@ figcaption {
   }
 
   .nav-menu-wrapper {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .nav-menu {
@@ -4610,15 +4543,12 @@ figcaption {
   .uui-banner08_close-button-2 {
     margin-left: 0;
     position: absolute;
-    top: .5rem;
-    bottom: auto;
-    left: auto;
-    right: .5rem;
+    inset: .5rem .5rem auto auto;
   }
 
   .uui-banner08_close-button-2:hover {
     color: #667085;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .navbar-brand {
@@ -4649,7 +4579,7 @@ figcaption {
   }
 
   .nav-dropdown-list.shadow-three {
-    box-shadow: 0 8px 50px rgba(0, 0, 0, .05);
+    box-shadow: 0 8px 50px #0000000d;
   }
 
   .nav-dropdown-list.shadow-three.w--open {
